@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Proxy.dynamic.BlackListFilter</OriginalElement>
+  <nodes>
+    <node x="419.8173076923077" y="0.0">Proxy.staticProxy.Internet</node>
+    <node x="59.0" y="114.0">Proxy.dynamic.Intranet</node>
+    <node x="642.8617216117216" y="228.0">Proxy.dynamic.BlackListFilter</node>
+    <node x="0.0" y="228.0">Proxy.dynamic.Switch</node>
+    <node x="642.8617216117216" y="114.0">java.lang.reflect.InvocationHandler</node>
+    <node x="367.4532967032967" y="352.0">Proxy.dynamic.Client</node>
+    <node x="400.8617216117216" y="228.0">Proxy.dynamic.RouterProxy</node>
+    <node x="294.0" y="114.0">Proxy.Modem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Proxy.dynamic.Client" target="Proxy.staticProxy.Internet">
+      <point x="53.14285714285717" y="-32.0" />
+      <point x="513.5961538461538" y="322.0" />
+      <point x="632.3617216117216" y="322.0" />
+      <point x="632.3617216117216" y="89.0" />
+      <point x="613.1923076923076" y="89.0" />
+      <point x="82.875" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.RouterProxy" target="Proxy.Modem">
+      <point x="-73.66666666666669" y="-32.0" />
+      <point x="437.69505494505495" y="203.0" />
+      <point x="404.5" y="203.0" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.Client" target="Proxy.dynamic.Intranet">
+      <point x="-26.571428571428555" y="-32.0" />
+      <point x="433.88186813186815" y="312.0" />
+      <point x="225.5" y="312.0" />
+      <point x="225.5" y="203.0" />
+      <point x="220.25" y="203.0" />
+      <point x="53.75" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.BlackListFilter" target="java.lang.reflect.InvocationHandler">
+      <point x="0.0" y="-32.0" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="Proxy.Modem" target="Proxy.staticProxy.Internet">
+      <point x="0.0" y="-32.0" />
+      <point x="404.5" y="89.0" />
+      <point x="447.4423076923077" y="89.0" />
+      <point x="-82.875" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.RouterProxy" target="Proxy.staticProxy.Internet">
+      <point x="73.66666666666669" y="-32.0" />
+      <point x="585.0283882783883" y="203.0" />
+      <point x="555.8250915750916" y="203.0" />
+      <point x="555.8250915750916" y="89.0" />
+      <point x="557.9423076923076" y="89.0" />
+      <point x="27.625" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.Client" target="Proxy.dynamic.Switch">
+      <point x="-53.14285714285717" y="-32.0" />
+      <point x="407.31043956043953" y="322.0" />
+      <point x="161.25" y="322.0" />
+      <point x="53.75" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.Client" target="Proxy.dynamic.RouterProxy">
+      <point x="26.571428571428612" y="-32.0" />
+      <point x="487.0247252747253" y="312.0" />
+      <point x="566.6117216117216" y="312.0" />
+      <point x="55.25" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.Client" target="Proxy.dynamic.BlackListFilter">
+      <point x="79.71428571428572" y="-32.0" />
+      <point x="540.1675824175825" y="332.0" />
+      <point x="810.8617216117216" y="332.0" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="Proxy.dynamic.Switch" target="Proxy.dynamic.Intranet">
+      <point x="0.0" y="-32.0" />
+      <point x="107.5" y="203.0" />
+      <point x="112.75" y="203.0" />
+      <point x="-53.75" y="32.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3382806275039911" x="457.6423811496157" y="225.38658041766865" />
+  <SelectedNodes>
+    <node>Proxy.dynamic.BlackListFilter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Proxy.staticProxy.Client</OriginalElement>
+  <nodes>
+    <node x="123.89583333333336" y="0.0">Proxy.staticProxy.Internet</node>
+    <node x="84.63020833333337" y="228.0">Proxy.staticProxy.RouterProxy</node>
+    <node x="172.515625" y="342.0">Proxy.staticProxy.Client</node>
+    <node x="0.0" y="114.0">Proxy.Modem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Proxy.Modem" target="Proxy.staticProxy.Internet">
+      <point x="0.0" y="-32.0" />
+      <point x="110.5" y="89.0" />
+      <point x="151.52083333333337" y="89.0" />
+      <point x="-82.875" y="32.0" />
+    </edge>
+    <edge source="Proxy.staticProxy.RouterProxy" target="Proxy.staticProxy.Internet">
+      <point x="0.0" y="-32.0" />
+      <point x="195.13020833333337" y="203.0" />
+      <point x="231.5" y="203.0" />
+      <point x="231.5" y="89.0" />
+      <point x="206.77083333333337" y="89.0" />
+      <point x="-27.625" y="32.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="179.5" y="203.0" />
+  <SelectedNodes>
+    <node>Proxy.staticProxy.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
